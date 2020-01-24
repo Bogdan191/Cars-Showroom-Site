@@ -1,0 +1,278 @@
+{"lastId":21, 
+"masini":[
+     {"id":1, 
+      "nume": "Renault Megane",
+      "descriere": "Un profil elegant și dinamic, un habitaclu high-tech și finisaje de calitate... Renault MEGANE atrage toate priviril",
+      "categorie": "Sedan",
+      "data": "01.10.2019",
+      "pret": 10000,
+      "imagine": "renault_megane.jpg",
+      "producator": "Renault",
+      "accesorii": "radio, aer conditionat",
+      "elctrica": true
+     },
+     {
+        "id":  2,
+        "nume": "Honda Civic",
+        "descriere": "Complet reproiectat, noul Civic 5D reflectă spiritul nostru inovativ și misiunea pe care ne-am asumat-o pentru atingerea excelenței tehnice. Rezultatul este o mașină creată cu o personalitate unică și un spirit sportiv, o mașină care e captivantă de condus, rafinată, confortabilă și sofisticată",
+        "categorie": "Hatchback", 
+        "data": "01.09.2019",
+        "pret": 12500,
+        "imagine": "honda_civic.jpg",
+        "producator": "Mazda",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  3,
+        "nume": "Mazda 3",
+        "descriere": "Noua Mazda3 Sedan este provocatoare prin eleganță și rafinament. Am creat o caroserie zveltă, rafinată, cu stil clar și simplu, utilizând Designul Kodo și Tehnologiile Skyactiv avansate.",
+        "categorie": "Break", 
+        "data": "01.10.2019",
+        "pret": 11500,
+        "imagine": "mazda_3.jpg",
+        "producator": "Mazda",
+        "accesorii": "sda",
+        "electrica": false
+
+     },
+     {
+        "id":  4,
+        "nume": "Dacia Logan",
+        "descriere": "Cu un design inspirat din seria foarte apreciată STEPWAY, noua versiune a modelului Logan subliniază un caracter mai tânar și modern.",
+        "categorie": "Sedan", 
+        "data": "13.11.2019",
+        "pret": 9500,
+        "imagine": "dacia_logan.jpg",
+        "producator": "Dacia",
+        "accesorii": "geamuri electrice",
+        "electrica": false
+
+     },
+     {
+        "id":  5,
+        "nume": "Audi A4",
+        "descriere": "Noul limbaj de design şi caroseria modificată aproape integral subliniază şi mai mult caracterul sportiv al modelului Audi A4 Limuzină, modelul fiind acum şi mai dinamic şi mai estetic şi atractiv.",
+        "categorie": "Sedan", 
+        "data": "21.09.2019",
+        "pret": 19500,
+        "imagine": "audi_a4.jpg",
+        "producator": "Audi",
+        "accesorii": "aer conditionat",
+        "electrica": false
+
+     },
+     {
+        "id":  6,
+        "nume": "Toyota Rav-4",
+        "descriere": "Descarca brosura modelului tau preferat Toyota sau acceseaza listele de preturi si verifica si accesoriile la preturile speciale.",
+        "categorie": "SUV", 
+        "data": "01.10.2019",
+        "pret": 20500,
+        "imagine": "toyota_rav-4.jpg",
+        "producator": "Toyota",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  7,
+        "nume": "Renault ZOE",
+        "descriere": "Bucură-te de o deplasare fără griji, cu zero emisii de noxe și fără zgomot generat de motor.",
+        "categorie": "Hatchback",
+        "data": "01.10.2019", 
+        "pret": 22500,
+        "imagine": "renault_zoe.jpg",
+        "producator": "Renault",
+        "accesorii": "",
+        "electrica": true
+
+     },
+     {
+        "id":  8,
+        "nume": "Renault Latitude",
+        "descriere": "Practic, Latitude s-a vrut a fi succesorul lui Vel Satis, dar parca Renault nu a mai avut suficienti bani incat sa faca inca un vapor de lux pe care nu il cumpara nimeni. Asa ca au creat doar un Laguna III mai mare si doar cu dotari de top, ca sa nu te mai obosesti sa mai cauti optiuni sau sa plangi intr-un anemic diesel de 1.5 litri.",
+        "categorie": "Sedan", 
+        "data": "15.12.2019",
+        "pret": 13500,
+        "imagine": "renault_latitude.jpg",
+        "producator": "Renault",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  9,
+        "nume": "BMW X3",
+        "descriere": "BMW X3 îţi oferă oportunităţi nelimitate şi reprezintă expresia prezenţei impunătoare şi a libertăţii: te impresionează din prima clipă cu aspectul său sportiv şi te fascinează cu experienţa de condus palpitantă pe care ţi-o oferă.",
+        "categorie": "SUV", 
+        "data": "01.10.2019",
+        "pret": 19500,
+        "imagine": "bmw_x3.jpg",
+        "producator": "BMW",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  10,
+        "nume": "Mercedes C-Class",
+        "descriere": "La Mercedes-AMG Clasa C limuzină sportivitatea ce sugerează rapiditate și liniile marcante ale formei sunt combinate foarte expresiv. Doar o dovadă a ADN-ului de AMG care este ascuns în fiecare dintre aceste autovehicule – de la modelul C 43 4MATIC până la C 63 S.",
+        "categorie": "Break", 
+        "data": "01.10.2019",
+        "pret": 17500,
+        "imagine": "mercedes_c-class.jpg",
+        "producator": "Mercedes",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  11,
+        "nume": "Ford Fiesta",
+        "descriere": "Daca tehnologiile inteligente functioneaza fara probleme in casa ta, ar trebui sa se comporte la fel si in masina. De aceea, Fiesta este echipat cu SYNC 3 pentru a-ti usura viata, cu B&O pentru a-ti face calatoriile mai distractive, și cu un plafon panoramic ce poate fi deschis, pentru ca fiecare deplasare sa fie si mai placuta",
+        "categorie": "Hatchback", 
+        "data": "22.11.2019",
+        "pret": 12700,
+        "imagine": "ford_fiesta.jpg",
+        "producator": "Ford",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  12,
+        "nume": "Honda Accord",
+        "descriere": "Noul Accord este oferit si in compania a doua motorizari clasice, un L4 cu injectie directa de 2,4 litri si 184 CP si un V6 i-VTEC complet nou de 3,5 litri si 315 CP. Optional, pot fi comandate o cutie CVT pentru modelul entry-level si o noua transmisie automata cu sase trepte pentru versiunea de top cu sase cilindri",
+        "categorie": "Sedan", 
+        "data": "20.09.2019",
+        "pret": 11500,
+        "imagine": "honda_accord.jpg",
+        "producator": "Honda",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  13,
+        "nume": "Volvo S60",
+        "descriere": "Noul Volvo S60 este sedanul sport care rescrie povestea de conducere. Performanță fără efort, tehnologie intuitivă și un șasiu sofisticat, care echilibrează confortul și controlul, cu o gamă de moduri de conducere care te pune în centrul unei experiențe dinamice.",
+        "categorie": "Sedan", 
+        "data": "14.10.2019",
+        "pret": 10500,
+        "imagine": "volvo_s60.jpg",
+        "producator": "Volvo",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  14,
+        "nume": "Mercedes S-Class Coupe",
+        "descriere": "Tradus din engleză-Mercedes-Benz Clasa S (C217) este o mașină luxoasă de dimensiuni complete / grand tourer fabricată de Mercedes-Benz din 2014. Modelul C217 a reușit clasa CL și este versiunea actuală a cupei S-Class",
+        "categorie": "Coupe", 
+        "data": "19.12.2019",
+        "pret": 72500,
+        "imagine": "mercedes_s-class_coupe.jpg",
+        "producator": "Mercedes",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  15,
+        "nume": "Suzuki Swift Sport",
+        "descriere": "Rămâi fidel spiritului tău, indiferent de situație. O nouă grilă frontală și un nou spoiler atrăgător accentuează stilul distinct și pregnant al noului Swift Sport. Evacuarea cu elemente finale duble transmite un mesaj clar despre performanțele motorului.",
+        "categorie": "Coupe", 
+        "data": "12.06.2019",
+        "pret": 9500,
+        "imagine": "suzuki_swift_sport.jpg",
+        "producator": "Suzuki",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  16,
+        "nume": "Dacia Sandero",
+        "descriere": "Te bucuri de noul design, de tehnologie, de spiritul ei tânăr și de o reducere atractivă pentru Sandero Stepway! Acum ai Sandero Stepway Ambiance SCe 73 la 9.160 € (TVA inclus).",
+        "categorie": "Break", 
+        "data": "01.10.2019",
+        "pret": 8500,
+        "imagine": "dacia_sandero.jpg",
+        "producator": "Dacia",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  17,
+        "nume": "BMW X5",
+        "descriere": "BMW X5 atrage atenţia celor care îl privesc – este impunător, puternic şi elegant. Grila dublă a radiatorului, creată dintr-o singură bucată, anticipează ce se va întâmpla atunci când porneşti motorul. Iar designul X al farurilor nu lasă nicio îndoială asupra celui care va fi în frunte",
+        "categorie": "SUV", 
+        "data": "05.11.2019",
+        "pret": 52500,
+        "imagine": "bmw_x5.jpg",
+        "producator": "BMW",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  18,
+        "nume": "Audi A6",
+        "descriere": "Când designul întâlneşte eficienţa şi sportivitatea se îmbină cu rafinamentul. Când inovaţia şi precizia merg mână în mână şi eleganţa progresistă se simte în fiecare linie. Când forma şi funcţia se contopesc şi avansul domină în toate. Atunci, clasa business se ridică la un nou standard: Audi A6 Limuzină. Şi mai atletic. Mai impunător",
+        "categorie": "Sedan", 
+        "data": "21.12.2019",
+        "pret": 65000,
+        "imagine": "audi_a6.jpg",
+        "producator": "Audi",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  19,
+        "nume": "Tesla Model 3",
+        "descriere": "Modelul de bază Tesla Model 3 Standard Range Plus are o autonomie de 409 kilometri, o viteză maximă de 225 km/oră și poate realiza sprintul de la 0 la 100 km/oră în 5,6 secunde. Prețul este de 39.500 de euro.",
+        "categorie": "Sedan", 
+        "data": "18.10.2019",
+        "pret": 12500,
+        "imagine": "tesla_model_3.jpg",
+        "producator": "Tesla",
+        "accesorii": "",
+        "electrica": true
+
+     },
+     {
+        "id":  20,
+        "nume": "Porsche 911 Cabrio",
+        "descriere": "The new 911 is the sum of its predecessors – and is therefore a reflection of the past and a vision of the future. The silhouette: iconic. The design: timeless. The technology: inspired by great racing victories and always one step ahead",
+        "categorie": "Cabriolet", 
+        "data": "21.11.2019",
+        "pret": 120000,
+        "imagine": "porsche_911_cabrio.jpg",
+        "producator": "Porsche",
+        "accesorii": "",
+        "electrica": false
+
+     },
+     {
+        "id":  21,
+        "nume": "Peugeot 508",
+        "descriere": "Noul PEUGEOT 508 este schimbat cu totul. Noua sa siluetă este mai compactă și mai joasă. Noul design exterior este mai percutant și mai robust, în timp ce interiorul spectaculos găzduiește o evoluție a iconicului PEUGEOT i-Cockpit®. Manevrabilitatea exemplară, motorizările noi, numeroasele tehnologii și saltul generațional fac din PEUGEOT 508 un standard de clasă mondială al urcării în gamă a Mărcii.",
+        "categorie": "Sedan", 
+        "data": "01.10.2019",
+        "pret": 20000,
+        "imagine": "peugeot_508.jpg",
+        "producator": "Peugeot",
+        "accesorii": "",
+        "electrica": false
+
+     }
+
+
+]
+
+}
