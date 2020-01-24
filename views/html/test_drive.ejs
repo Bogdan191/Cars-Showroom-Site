@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+
+<html lang="ro">
+        <head> 
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title> Showroom Renault </title>
+                <link type = text/css rel = "stylesheet" href="../../css/style.css">
+                <link type = text/css rel = "stylesheet" href="../../css/test_drive_style.css">
+                <link type = text/css rel="stylesheet" href="../../css/slide_images.css">
+                <link rel="shortcut icon" type="image/png" href="../../Uploads/Images/favicon.png">
+                
+                
+            </head>
+<body>
+           <header>
+               <h1> SHOWROOM  RENAULT</h1>
+               
+           
+               <nav>
+                     
+                
+                    <div class ="dropdown">
+                        <a href="/">Acasa</a>
+                     </div>
+           
+                  <div class="dropdown">
+                      <button class="dropbtn"> Auto Noi
+                        
+                      </button>
+                      <div class = "dropdown-content">
+                          <a href="newcars"> Catalog auto noi</a>
+                          <a href="masini"> Anunturi auto noi </a>
+                          <a href="example_form"> Exemplul formular cerere </a>
+                          <a href="conditions"> Conditii pentru achizitionare</a> 
+                      </div> 
+                   </div> 
+                  <div class="dropdown">
+                       <button class="dropbtn"> Contact 
+                        
+                       </button>
+                       <div class="dropdown-content">
+                           <a href="contact.html" id="contact_us"> Contacteaza-ne</a> 
+                       </div>  
+                   </div>
+                   <div class ="dropdown", style="margin-left:3vw">
+                  <a href="my_account">Contul meu</a>
+            </div>
+                  
+               </nav>
+               <div id="rotitor"></div>
+           </header>
+
+               <div class="test_drive_form">
+                   <h2> Completeaza urmatorul formular pentru a programa un test-drive</h2>
+                   <form action="script.js">
+                       <label for="fname"> Nume</label> <br>
+                       <input type="text" id="fname" name="fname"><br>
+                       <label for="lname">Prenume</label><br>
+                       <input type="text" id="lname" name="lname"><br>
+                       <label for="county"> Locatie Reprezentanta </label><br>
+                       <select id="county" name="county">
+                            <option value="Alba">Alba</option>
+                            <option value="Brasov">Brasov</option>
+                            <option value="Bucuresti">Bucuresti</option>
+                            <option value="Cluj">Cluj</option>
+                            <option value="Iasi">Iasi</option>
+                            <option value="Sibiu">Sibiu</option>
+                       </select><br>
+                       <label for="data"> Data in care vrei sa faci test-drive-ul: </label><br>
+                       <select id="data" name="data">
+                           <option value="data1">21.12.2019</option>
+                           <option value="data2"> 22.12.2019</option>
+                           <option value="data3"> 23.12.2019</option>
+                           <option value="data4"> 03.01.2020</option>
+                           <option value="data5"> 04.01.2020</option>
+                           <option value="data6"> 05.01.2020</option>
+                           <option value="data7"> 06.01.2020</option>
+                           <option value="data8"> 07.01.2020</option>
+                           <option value="data9"> 08.01.2020</option>
+                           <option value="data10"> 09.01.2020 </option>
+                       </select><br>
+                       <label for="car"> Masina pe care doriti sa o testati </label><br>
+                       <select id="car" name="car">
+                           <option value="car1"> Renault Megane </option>
+                           <option value="car2"> Renault Clio </option>
+                           <option value="car3"> Renault Captur </option>
+                           <option value="car4"> Renault Clio Estate </option>
+                           <option value="car5"> Renault Megane Estate </option>
+                           <option value="car6"> Renault Kadjar </option>
+                           <option value="car7"> Renault Clio RS </option>
+                           <option value="car8"> Renault Megane GT </option>
+                           <option value="car9"> Renault Talisman </option>
+                       </select> <br>
+                       <input type="button" value="Trimite cererea">
+  
+                   </form>
+               </div>
+           </body>
+
+
+</html>

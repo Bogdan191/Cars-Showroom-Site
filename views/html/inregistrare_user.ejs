@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title> Inregistrare utilizator</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Bogdan"/>
+        <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <%- include("../fragmente/header"); %>
+        </header>
+        <main>
+            <div class="afisaj">
+                <h1> Inregistrare utilizator</h1>
+                <br/><br/><br/><br/>
+                <% if(!locals.rsstatus) { %>
+                <form class="date" method="post" enctype="multipart/form-data">
+                    <p>
+                        <label>
+                            Nume: <input type="text" name="nume" placeholder="nume">
+                        </label>
+                    </p>
+                    <p>
+                             
+                        <label>
+                             Prenume: <input type="text" name= "prenume"  placeholder="prenume">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Nume utilizator: <input type="text" name="username" method="post" placeholder="username">
+                        </label> 
+                    </p>
+                    <p>
+                        <label>
+                              Email: <input type="text" name="email" method="post" placeholder="email">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Parola: <input type="password" name="parola" method="post" placeholder="parola">
+                        </label>
+                    </p>
+                    <p>
+                        <input type="submit" value="Submit">
+                    </p>
+                </form>
+                <% } else if(rsstatus == "ok") { %>
+                    <p> Inregistrare cu succes </p>
+                <% } else { %>
+                    <p> Eroare</p>
+                <% } %>
+                
+                
+            </div>
+        </main>
+
+        <footer>
+            <%- include("../fragmente/footer"); %>
+        </footer>
+    </body>
+</html>

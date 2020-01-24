@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+</div>
+<html lang="en">
+    <head> 
+        <title> Masini </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Bogdan"/>
+        <script src="/javaScript/masini.js"></script>
+        
+        <link type = "text/css" rel="stylesheet" href="../css/style.css"/>
+        <link type = "text/css" rel="stylesheet" href="../css/masini_style.css"/>
+    </head>
+     <script> 
+         var test = <%- JSON.stringify(masini) %>;
+         var test_aux = <%- JSON.stringify(masini) %>;
+     </script>
+    <body> 
+          <header>
+              <%- include("../fragmente/header"); %>
+          </header>  
+          
+          <div class="btn-group" style="margin-left:20%">
+            <button onclick="myMove()">Porneste animatia</button>  
+            <button id="stop">Opreste animatia</button>
+         </div>
+<div id ="container">
+  <div id ="animate"></div>
+</div>
+          <div class="motor_filtrare" id="filtru">
+              <p id="text_nume">
+                  Introduceti numele masinii: 
+              </p>
+             <p id="range">
+                 Seteaza pretul maxim:  
+             </p> 
+
+
+             <p> Producator
+                 <select id="select_producator" name="producatori">
+                     <option value="Audi"> Audi </option>
+                     <option value ="BMW"> BMW </option>
+                     <option value ="Dacia"> Dacia</option>
+                     <option value ="Ford"> Ford </option>
+                     <option value = "Honda"> Honda </option>
+                     <option value = "Mazda"> Mazda </option>
+                     <option value = "Mercedes"> Mercedes </option> 
+                     <option value = "Peugeot" >Peugeot</option> 
+                     <option value = "Porsche" > Porsche </option>
+                     <option value = "Renault" >Renault</option> 
+                     <option value = "Suzuki" > Suzuki </option>
+                     <option value ="Tesla"> Tesla </option>
+                     <option value  = "Toyota"> Toyota </option>
+                     <option value = "Volvo"> Volvo </option>
+
+                 </select>
+                 
+            </p>
+             
+             <p id="checkbox_1"> Electrica:
+                 
+            </p>
+            <p> Cuvinte cheie: </p>
+            <p id="text_area"> </p>
+                    <p> Afiseaza rezultatele care indeplinesc: </p>
+                    <p id="radio_buttons"></p>
+            </p>
+          </div>
+          <div class="btn-group" style="margin-left:20%">
+           <button id="filtrare"> Filtreaza </button>
+           <button id="sortare_nume" > Sortare dupa nume  </button>
+           <button id="sortare_pret">  Sortare dupa pret </button>
+           <button id="calculare"> Media preturilor  </button>
+           <button id="resetare"> Reseteaza tabela de anunturi </button> 
+           <button id="buton_timeOut"> Opreste TimeOut </button>
+          </div>
+           <div id="init">
+             
+           </div>
+      
+     <footer>
+         <%- include("../fragmente/footer"); %>
+     </footer>
+    </body>
+</html>

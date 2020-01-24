@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ro">
+ <head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Showroom Renault </title>
+     <link type = text/css rel = "stylesheet" href="../../css/style.css">
+     <link type = text/css rel="stylesheet" href="../../css/slide_images.css">
+     <link rel="shortcut icon" type="image/png" href="../../Uploads/Images/favicon.png">
+   
+     
+ </head>
+ <body>
+<header>
+    <%- include("../fragmente/header") %>
+</header>
+ 
+   <div class="container">
+
+        <input type="radio" name="images" id="i1" checked>
+        <input type="radio" name="images" id="i2">
+        <input type="radio" name="images" id="i3">
+         <div class="slide_img" id="one">
+             <img src="../../Uploads/Images/clio1.jpg"  alt="clio"> 
+             <label for="i3" class="prev"></label>
+            <label for="i2" class="next"> </label>
+         </div>
+
+         <div class="slide_img" id="two">
+            <img src="../../Uploads/Images/megane1.jpg" alt="megane"> 
+            <label for="i1" class="prev"></label>
+            <label for="i3" class="next"> </label>
+        </div>
+
+        <div class="slide_img" id="three">
+            <img src="../../Uploads/Images/captur1.jpg" alt="Captur"> 
+            <label for="i2" class="prev"></label>
+            <label for="i1" class="next"> </label>
+        </div>
+    <div class="nav_images">
+        <label class="dots" id="dot1" for="i1"></label>
+        <label class="dots" id="dot2" for="i2"></label>
+        <label class="dots" id="dot3" for="i3"></label>
+    </div>
+   </div>
+   <section class="main_box" id="para">
+         <div id="despre_noi">
+                <h2> Despre Noi </h2>
+
+         </div>
+                <p style="color:black">In Showroom-ul nostru vei gasi sigur o mnasina pe placul tau, iar consilierii sunt pregatiti sa se adapteze nevoilor clientilor si sa raspunda solicitarilor.
+
+                        Credem ca o relatie de lunga durata client-marca-reprezentant se bazeaza pe incredere, integritate si responsabilitate. Vei beneficia in showroom-urile noastre de servicii profesioniste, de asistenta si de personalizarea ofertelor in functie de bugetul si de nevoile tale, vei putea vedea si testa cele modelul dorit inainte de achizitionare.</p>
+                <p style="color:b
+                lack">De asemenea, in Showroom-ul nostru se organizeaza saptamanal o licitatie cu masini SH la care poate participa oricine se inscrie. Puteti inspecta masina inainte. </p> 
+   </section>
+   <section class="about_Renault_Romania" id="para1">
+        <h3> GROUPE RENAULT ROMANIA, O POVESTE DE SUCCES</h3>
+       <div id="istoria_renault"> 
+           <p style="color:black">Constructor de automobile din 1898, Groupe Renault este prezent in 134 de tari si a vandut 3,9 milioane de vehicule in 2018. </p>
+        </div>
+        <div>
+           <p style="color:black">  Mizeaza pe complementaritatea celor cinci marci (Renault, Dacia, Renault Samsung Motors, Alpine si Lada), pe vehiculul electric si pe Alianta sa unica cu Nissan si Mitsubishi. 
+
+                Pentru a raspunde marilor provocari tehnologice in viitor si a continua strategia de crestere rentabila, Grupul se sprijina pe dezvoltarea sa la nivel international. 
+                
+                Groupe Renault integreaza in Romania toate activitatile specifice constructiei automobilului, ceea ce a condus la o performanta economica sustinuta si la o varietate de oferte de recrutare pentru specializari diferite pentru: studii client, design, inginerie, testare, fabricatie, logistica, comercializare, servicii de business, post-vanzare, finantare. 
+                
+                In 2018, Groupe Renault Romania a avut o cifra de afaceri de 6 miliarde de euro. Aflat in centrul gamei Global Access (din care fac parte modelele Dacia, produse pe platforma industriala de la Mioveni), Grupul e lider pe piața locala cu marcile Dacia si Renault. Cei peste 18.000 de angajati ai Groupe Renault Romania inoveaza in ceea ce priveste produsele si bunele practici, fiind recunoscuti pentru profesionalismul lor.</p>
+        </div>
+
+    </section>
+    <footer>
+     <%- include("../fragmente/footer") %>
+</footer>
+</body>
+</html>

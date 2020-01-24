@@ -1,0 +1,41 @@
+<div class="template_user">
+    <article class="articol_masina">
+        <div>
+            <h2> <%= masina.nume %></h2>
+            <img src="/uploads/imagini auto/<%= masina.imagine %>" alt = " <%= masina.nume %> nu are poza" style="width:150px; height:150px; margin-left:1%"/>
+            <h4 id="categorie"> Categorie: <%= masina.categorie %> </h4>
+            <h4 id="descriere"> Descriere: <%= masina.descriere %> </h4> 
+        </div>
+        <div> 
+             <table>
+                 <tr> 
+                     <td> Pret: </td>
+                     <td> <%= masina.pret %> </td>
+                </tr>
+                <tr>
+                    <td> Data aducerii in depozit: </td>
+                    <td> <%= masina.data %> </td>
+                </tr>
+                <tr>
+                    <td>Electrica</td>
+                    <% if(masina.electrica == false) { %>
+                            <td> Nu </td>
+                    <% } else { %>
+                            <td> Da </td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td> Producator </td>
+                    <td> <%= masina.producator %>
+                </tr>
+                <tr>
+                    <td> Accesorii </td>
+                    <td> <%= masina.accesorii %> </td>
+                </tr>
+             </table>
+        </div>
+       
+    </article>
+
+</div>
+      

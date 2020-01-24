@@ -1,0 +1,41 @@
+<h1> SHOWROOM  RENAULT</h1>
+    
+
+    <nav>
+          
+        <div class ="dropdown">
+            <a href="/">Acasa</a>
+    </div>
+        
+       <div class="dropdown">
+           <button class="dropbtn"> Auto Noi
+              
+           </button>
+           <div class = "dropdown-content">
+               <a href="newcars"> Catalog auto noi</a>
+               <a href="masini"> Anunturi auto noi </a>
+               <a href="example_form"> Exemplul formular cerere </a>
+               <a href="conditions"> Conditii pentru achizitionare</a> 
+           </div> 
+        </div> 
+       <div class="dropdown">
+            
+            <a href="contact"> Contacteaza-ne</a>
+        </div>
+        <div class ="dropdown", style="margin-left:3vw">
+            <% if(!locals.user) { %>
+                <a href="my_account">Intra in cont</a>
+            <% } else { %>
+                 <button class="dropbtn"> <%= user.username %> </button>
+                 <div class="dropdown-content">
+                     <a href="logout">Delogheaza-te</a> 
+                 </div>
+            <% } %>
+          
+  </div>
+        
+        
+       
+    </nav>
+    <div id="rotitor"></div>
+   

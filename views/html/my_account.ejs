@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+<head>
+    
+
+    <title> Contul meu </title>
+
+    <meta charset="UTF-8">
+    <meta name="keywords" content="autentificare, inregistrare">
+    <meta name="description" content="Pagina desemnata pentru contul fiecarui utilizator, unde poate vedea lista de atractii turistice a atractiilor turistice -Vreau sa merg- sau a -Favoritelor- sau comentariile oferite ca -Review-uri-">
+    <meta name="author" content="Pintilie Bogdan-Ioan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="../../css/style.css">
+    <link type="text/css" rel="stylesheet" href="../../css/contact_style.css">
+    <link rel="shortcut icon" type="image/png" href="../../Uploads/Images/favicon.png">
+    <script type="text/javascript" src="../../node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script>
+        
+        socketUrl = "../../my_account";
+        if(document.location.href.indexOf("localhost") != -1) {
+            socketUrl = "http://127.0.0.1:8080";
+        }
+        const socket = io(socketUrl,{reconnect: true});
+        //var socket = io.connect('http://127.0.0.1:8080', {reconnect: true});
+        socket.on("buton", (data) => {
+            alert("buton apasat")
+        });
+    </script>
+    
+
+    <style>
+     .buttonLogin {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <%- include("../fragmente/header") %> 
+    </header>
+
+    
+    <main>
+        <h2 style="text-align: center; font-size: 1.6vw;"> Autentificare </h2>
+        <div class="row", style="margin-left:30%">
+            
+            <div class="column">
+                
+                <form id="login" method="post">
+                    <p style="font-size:1vw">
+                        <label >
+                            Email: <input  type="text" name="username" placeholder="abcd12@gmail.com" value="">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Parola: <input type="password" name="parola" placeholder="**********" value="">
+                        </label>
+                    </p>
+                    <p>
+                        Pentru a te loga, apasa butonul continua
+                    </p>
+                    <p>
+                        <input type="submit" class = "buttonLogin" value="Submit">
+                    </p>
+                </form>
+                  </div>       
+       </div>
+       </div> 
+     
+
+       
+        <div style="margin-left:40%; margin-bottom: 1%;">
+           
+            <h2>
+                Nu ai încă un cont?
+            </h2>
+            <a href="inregistrare_user" class="buttonLogin">Creează-ți contul acum </a>
+        </div>
+               
+
+    </main>
+
+    <footer>
+        <%- include("../fragmente/footer"); %>
+  </footer>
+
+</body>
+
+</html>

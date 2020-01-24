@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+        <head> 
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title> Contact </title>
+                <link rel = "stylesheet" href="../../css/style.css">
+                <link rel = "stylesheet" href="../../css/contact_style.css">
+                <link rel="shortcut icon" type="image/png" href="../../Uploads/Images/favicon.png">
+           
+            </head>
+      <body>
+            <header>
+                   <%- include("../fragmente/header"); %>
+                </header>
+    <article>
+        <h2> Locatii </h2>
+        <table id="table_location">
+                <thead>
+                    <tr>
+                            <th> Oras</th>
+                            <th> Strada</th>
+                            <th> Program</th>
+                            <th> Director genral</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Alba </td>
+                            <td> Str. Stefan cel Mare, nr. 11 </td>
+                            <td> L-S: 08 - 16, D: 09 - 15 </td>
+                            <td> Petre Radu </td>
+                        </tr>
+                       <tr>
+                           <td> Brasov </td>
+                           <td> Str. Revolutiei, nr. 43 </td>
+                           <td> L-S: 09 - 17, D: 10 - 16 </td>
+                           <td> Diaconescu Gabriel </td>
+                       </tr>
+                       <tr>
+                           <td> Bucuresti </td>
+                            <td> Str. Petre Ispirescu, nr. 22 </td>
+                            <td> L-S: 08 - 16, D: 09 - 15 </td>
+                            <td> Iordache Mihai </td>
+                       </tr>
+                       <tr> 
+                            <td> Cluj </td>
+                            <td> Str. Doamnei, nr. 22 </td>
+                            <td> L-S: 08 - 17, D: 10 - 15 </td>
+                            <td> Costea Marian </td>
+                       </tr>
+                       <tr>
+                            <td> Iasi </td>
+                            <td> Str. Piata Unirii, nr. 310 </td>
+                            <td> L-S: 09 - 17, D: 10 - 16 </td>
+                            <td> Ureche Adriana </td>
+                       </tr>
+                       <tr>
+                            <td> Sibiu </td>
+                            <td> Str. Aviatorilor, nr. 7 </td>
+                            <td> L-S: 08 - 16, D: 10 - 15 </td>
+                            <td> Andronescu Ciprian </td>
+                       </tr>
+                    </tbody>
+                  
+        
+                
+            
+            </table>
+    </article>
+     
+
+
+
+    <section>
+      
+        <div class="contact_form">
+            <div style="text-align:center">
+                <h2> Contacteaza-ne </h2>
+                <p> Completeaza urmatorul formular pentru a ne contacta! </p>
+            </div>
+           <div class="row">
+                <div class="column">
+                    <img src="../../Uploads/Images/contact-us.jpg" alt="Contact-us image" style="width:100%">    
+                </div>
+                <div class="column">
+                        <form action="de_completat.php">
+                          <label for="fname">Nume</label>
+                          <input type="text" id="fname" name="firstname">
+                          <label for="lname">Prenume</label>
+                          <input type="text" id="lname" name="lastname">
+                          <label for="county">Locatie Reprezentanta</label>
+                          <select id="county" name="county">
+                            <option value="Alba">Alba</option>
+                            <option value="Brasov">Brasov</option>
+                            <option value="Bucuresti">Bucuresti</option>
+                            <option value="Cluj">Cluj</option>
+                            <option value="Iasi">Iasi</option>
+                            <option value="Sibiu">Sibiu</option>
+                
+                          </select>
+                          <label for="subject">Subiect</label>
+                          <textarea id="subject" name="subject" style="height:170px"></textarea>
+                          <input type="button" value="Submit">
+                        </form>
+                      </div>       
+           </div>
+           </div>             
+        
+    </section>
+    
+    <footer>
+     <%- include("../fragmente/footer"); %>
+</footer>
+     
+</body>
+    </html>
