@@ -1,0 +1,14 @@
+.form-container {
+   
+    margin-left: 10%;
+    width: 80%;
+    border: 2px solid black;
+    font-size: 3vw;
+}
+.form-container .form-box {
+    margin-left: 5%;
+    margin-bottom: 1%;
+    width: 30%;
+    border: 2px solid black;
+    font-size: 3vw;
+}

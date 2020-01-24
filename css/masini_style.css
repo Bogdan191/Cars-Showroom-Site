@@ -1,0 +1,84 @@
+
+.articol_masina {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: lightblue;
+
+    
+}
+.articol_masina > div:first-child {
+    border: 1px solid black;
+}
+.afisaj{
+    display: relative;
+    border:1px solid grey;
+    border-radius:20px;
+    padding:10px;
+}
+footer {
+    z-index: 1001;
+ }
+ table td {
+     margin-left: 13%;
+ }
+
+.motor_filtrare{
+    background-color: lightblue;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+
+}
+#text_cautare {
+    margin-left: 5%;
+    margin-bottom:1% ;
+    width: 50%;
+    height: 40px;
+}
+ .btn-group button {
+    background-color: #4CAF50;
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  
+
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+
+
+.text_node {
+
+}
+#container {
+  width: 80%;
+  margin-left: 10%;
+  height: 100px;
+  position: relative;
+  background-color: black; 
+}
+#animate {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("../Uploads/Images/logo_animation.png");
+}

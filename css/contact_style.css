@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.contact_form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table#tabel_location, table#tabel_location td, table#tabel_location th {
+    border: 1px solid black;
+    padding: 1em;
+}
+table#table_location {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    border-spacing: 1em;
+    border-collapse: separate;
+    box-sizing: border-box;
+
+}
+table#table_location>tbody tr {
+    counter-increment: nra; /* numar randurile din tabel */
+
+}
+table#table_location tfoot td::after {
+    content: " " counter(nra);
+}
+/* Responsive layout - coloanele sunt asezate una dupa alta cand latimea maxima este de 600px*/
+@media screen and (max-width: 650px) {
+
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  table#table_location, table#table_location tr {
+      bordeR: none;
+      padding: 0;
+      margin: 0;
+      display: block;
+
+  }
+
+  table#table_location td {
+      display: block;
+      padding: 0.3em;
+      box-sizing: border-box;
+
+  }
+  table#table_location thead {
+      display: none;
+  }
+  table#table_location tbody td:nth-child(1)::before {
+      content: "Oras: ";
+  }
+  table#table_location tbody td:nth-child(2)::before {
+      content: "Strada: ";
+  }
+  
+  table#table_location tbody td:nth-child(3)::before {
+    content: "Program: ";
+  }
+  table#table_location tbody td:nth-child(4)::before {
+    content: "Director general: ";
+  }
+
+  table#table_location td {
+      border-bottom: none;
+      border-top: none;
+      float: left;
+      width: 80%;
+      padding-left: 2%;
+      padding-right: 2%;
+
+  }  
+  table#table_location td::before {
+      float: left;
+      width: 35%;
+      font-weight: bold;
+      margin-right: 0.5em;
+      padding: 0.1em;
+      line-height: 100%;
+  }
+  table#table_location td:last-child{
+      border-bottom: 1px dashed grey;
+  }
+  table#table_location tr:first-child td:first-child{
+      border-top: 1px solid black;
+  }
+  table#table_locaiton tr:last-child td:last-child{
+      border-bottom: 1px solid black;
+  }
+}

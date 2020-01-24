@@ -1,0 +1,310 @@
+body, html{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #282828;
+}
+
+h1{
+   
+    font-size: 1.5vw;
+    padding: 3px;
+    width: 40%;
+    float:left;
+    margin-left:2%;
+    margin-top: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #f0e00a;
+}
+nav {
+    background-color: #282828;
+    margin-left: 20%;
+     margin-top: 15px;
+    display: inline-block;
+ 
+}
+.dropdown {
+  
+   float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 1.2vw;
+    border: none;
+    outline: none;
+    color: rgb(209, 32, 32); 
+    background-color:inherit;
+    font-family: inherit;   
+
+}
+
+.dropdown-content { 
+
+    display: none;
+    position: fixed;
+    background-color: #282828;
+    min-width: 20%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+    z-index: 10;
+    
+}
+.dropdown-content a {
+    float: none;
+    display: block;
+    position: relative;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    
+
+
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav a{
+    margin-left: 10px;
+    text-align: center;
+    color:  rgb(209, 32, 32);
+    text-decoration: none;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 1.2vw;
+}
+nav a:hover, .dropdown:hover .dropbtn{
+    color: #F0c330;
+    transition: 0.5s;
+}
+img{
+    width: 100%;
+    
+}
+
+div#rotitor {
+    margin-left: 10%;
+    margin-top: 0.9%;
+    background-image: url("../Uploads/Images/logo_animation.png");
+    width:40px;
+    height:40px;
+    animation-name: rotire;
+    animation-iteration-count:infinite;
+    animation-duration:1.5s;
+    animation-fill-mode:forwards;
+    animation-play-state: paused;
+    animation-timing-function:linear;
+}
+
+div#rotitor:hover {
+	animation-play-state: running;
+}
+
+@keyframes rotire{
+	100%{
+    	transform:rotate(360deg);
+    }
+}
+
+.main_box{
+    background-image: url("about_us_img.jpg");
+    background-repeat: no-repeat;
+    /*position: absolute; */
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    height:auto;
+    width: 78.5%;
+    background-color: #ffffff; 
+    
+}
+#para p{
+
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-indent: 2%;
+   font-size: 1.65vw;
+   color: rgb(255, 255, 255);
+
+}
+#para1 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 2%;
+    font-size: 1.65vw;
+    color: rgb(255, 255, 255);   
+}
+h2 {
+    align-content:  center;
+}
+.about_Renault_Romania{
+    background-color: #f0e00a;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+h3 {
+    
+    font-size: 1.5vw;
+    color: black;
+
+
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer{
+    
+    
+    background-color: #555;
+    color: #bbb;
+    line-height: 1;
+    
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+a:hover {
+    text-decoration: underline;
+
+}
+.ft-title { 
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    padding-bottom: 0.6rem;
+}
+.ft-main {
+    padding: 1.25rem 1.85rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ft-main-item {
+    padding-left: 5rem;
+
+}
+form {
+     padding-left: 6rem;
+    flex-wrap: wrap;
+}
+input[type="email"] {
+    border: 0;
+    padding: 0.625rem;
+    margin-top: 0.3rem;
+}
+input[type="submit"] {
+    background-color: lightgreen;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    padding: 0.625rem 0.9375rem;
+    margin-top: 0.3rem;
+}
+
+.ft-social {
+    padding: 0 1.875rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 1.25rem;
+
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+.ft-legal {
+   
+    background-color: #555;
+}
+.ft-llegal-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li {
+    margin: 0.125rem;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+      
+       header {
+           height: 55px;
+       }
+       nav {
+           margin-left: 55%;
+           margin-top: -1%;
+       }
+       div#rotitor {
+           display: none;
+       }
+       p.text {
+        float: none;
+        width: 100%;
+    }
+    p {
+        font-size: 1.5vw;
+    }
+    h1{
+        float:none;
+        width: 100%;
+    }
+    .about_Renault_Romania{
+        background-color: #f0e00a;
+        height: auto;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+    
+    }
+    .main_box{
+        width: 76%;
+        height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h2{
+        font-size: 3.2vw;
+    }
+    h3 {
+        font-size: 5px;
+    }
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .ft-main{
+        justify-content: space-evenly;
+    }
+    .ft-title {
+        font-size: 2.5vw;
+    }
+    li {
+        font-size: 1.5vw;
+    }
+    
+
+}
